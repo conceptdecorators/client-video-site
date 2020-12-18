@@ -1085,6 +1085,9 @@ video {
   }
 }
 @media (max-width: 480px) {
+  .banner-section {
+    margin: 500px;
+  }
   .w-layout-grid {
     display: inline-block;
   }
