@@ -1014,6 +1014,11 @@ video {
     text-align: right;
 }etails video */
 @media (min-width: 1025px) and (max-width: 1280px) {
+  /* .banner-section {
+    margin: 600px;
+  } */
+}
+@media (max-height: 768px) {
   .banner-section {
     margin: 600px;
   }
