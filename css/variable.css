@@ -1,0 +1,229 @@
+:root {
+  --iq-primary: #f7e215;
+  --iq-primary-hover: #bf000a;
+  --iq-light-primary: #d7d3f8;
+  --iq-secondary: #6c757d;
+  --iq-white: #ffffff;
+  --iq-black: #000000;
+  --iq-title-text: #23203c;
+  --iq-body-text: #d1d0cf;
+  --iq-body-bg: #141414;
+  --iq-bg1: #191919;
+  --iq-body-border: #393750;
+  --iq-gold: #e6c75f;
+  --iq-black: #000000;
+}
+
+.slider-one,
+.slider-two,
+.slider-three,
+.slider-four {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: slider-one 12s linear infinite;
+}
+.slider-one .slider-one-image,
+.slider-one .slider-two-image,
+.slider-one .slider-three-image,
+.slider-one .slider-four-image,
+.slider-two .slider-one-image,
+.slider-two .slider-two-image,
+.slider-two .slider-three-image,
+.slider-two .slider-four-image,
+.slider-three .slider-one-image,
+.slider-three .slider-two-image,
+.slider-three .slider-three-image,
+.slider-three .slider-four-image,
+.slider-four .slider-one-image,
+.slider-four .slider-two-image,
+.slider-four .slider-three-image,
+.slider-four .slider-four-image {
+  width: 120%;
+  height: 100%;
+  background-image: url("/assets/images/model-1-man-purple-orange-back-wide.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: zoom-out 3s linear infinite;
+}
+.slider-one .slider-one-image .slider-text,
+.slider-one .slider-two-image .slider-text,
+.slider-one .slider-three-image .slider-text,
+.slider-one .slider-four-image .slider-text,
+.slider-two .slider-one-image .slider-text,
+.slider-two .slider-two-image .slider-text,
+.slider-two .slider-three-image .slider-text,
+.slider-two .slider-four-image .slider-text,
+.slider-three .slider-one-image .slider-text,
+.slider-three .slider-two-image .slider-text,
+.slider-three .slider-three-image .slider-text,
+.slider-three .slider-four-image .slider-text,
+.slider-four .slider-one-image .slider-text,
+.slider-four .slider-two-image .slider-text,
+.slider-four .slider-three-image .slider-text,
+.slider-four .slider-four-image .slider-text {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  color: #ffffff;
+  width: 600px;
+  text-transform: capitalize;
+  animation: text-up 12s linear infinite;
+  transform: translateY(100px);
+  animation-delay: 0s;
+}
+.slider-one .slider-one-image h1,
+.slider-one .slider-two-image h1,
+.slider-one .slider-three-image h1,
+.slider-one .slider-four-image h1,
+.slider-two .slider-one-image h1,
+.slider-two .slider-two-image h1,
+.slider-two .slider-three-image h1,
+.slider-two .slider-four-image h1,
+.slider-three .slider-one-image h1,
+.slider-three .slider-two-image h1,
+.slider-three .slider-three-image h1,
+.slider-three .slider-four-image h1,
+.slider-four .slider-one-image h1,
+.slider-four .slider-two-image h1,
+.slider-four .slider-three-image h1,
+.slider-four .slider-four-image h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+.slider-one .slider-one-image p,
+.slider-one .slider-two-image p,
+.slider-one .slider-three-image p,
+.slider-one .slider-four-image p,
+.slider-two .slider-one-image p,
+.slider-two .slider-two-image p,
+.slider-two .slider-three-image p,
+.slider-two .slider-four-image p,
+.slider-three .slider-one-image p,
+.slider-three .slider-two-image p,
+.slider-three .slider-three-image p,
+.slider-three .slider-four-image p,
+.slider-four .slider-one-image p,
+.slider-four .slider-two-image p,
+.slider-four .slider-three-image p,
+.slider-four .slider-four-image p {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.slider-two {
+  animation: slider-two 12s linear infinite;
+}
+.slider-two .slider-two-image {
+  background-image: url("/assets/images/female-model-1-blue-yellow-wide.png");
+}
+.slider-two .slider-text {
+  animation-delay: 3s;
+}
+
+.slider-three {
+  animation: slider-three 12s linear infinite;
+}
+.slider-three .slider-three-image {
+  background-image: url("/assets/images/model-2-man-blue-yellow-small-wide.png");
+}
+.slider-three .slider-text {
+  animation-delay: 3s;
+}
+
+.slider-four {
+  animation: slider-four 12s linear infinite;
+}
+.slider-four .slider-four-image {
+  background-image: url("/assets/images/model-2-man-blue-yellow-small-wide.png");
+}
+.slider-four .slider-four-image .slider-text {
+  animation-delay: 6s;
+}
+
+@keyframes text-up {
+  10% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes zoom-out {
+  100% {
+    width: 100%;
+  }
+}
+@keyframes slider-one {
+  0% {
+    visibility: visible;
+  }
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  75% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+@keyframes slider-two {
+  0% {
+    visibility: hidden;
+  }
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: visible;
+  }
+  75% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+@keyframes slider-three {
+  0% {
+    visibility: hidden;
+  }
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  75% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+/* @keyframes slider-four {
+  0% {
+    visibility: hidden;
+  }
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  75% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+} */
+
+/* new grid test */
