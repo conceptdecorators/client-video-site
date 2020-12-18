@@ -1020,7 +1020,7 @@ video {
 }
 @media (max-height: 768px) {
   .banner-section {
-    margin: 600px;
+    margin: 535px;
   }
 }
 @media (min-width: 990px) {
