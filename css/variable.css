@@ -91,8 +91,9 @@
 .slider-four .slider-two-image h1,
 .slider-four .slider-three-image h1,
 .slider-four .slider-four-image h1 {
-  font-size: 3.5rem;
+  font-size: 6vw;
   margin-bottom: 20px;
+  color: black;
 }
 .slider-one .slider-one-image p,
 .slider-one .slider-two-image p,

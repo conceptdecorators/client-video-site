@@ -1110,7 +1110,7 @@ video {
   .slider-four .slider-two-image h1,
   .slider-four .slider-three-image h1,
   .slider-four .slider-four-image h1 {
-    font-size: 1.5rem;
+    font-size: 7vw;
     margin-bottom: 20px;
   }
 }
