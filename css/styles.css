@@ -1013,6 +1013,11 @@ video {
 .is-text-ar-sm {
     text-align: right;
 }etails video */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .banner-section {
+    margin: 600px;
+  }
+}
 @media (min-width: 990px) {
   .video-meta__container {
     max-width: 1050px;
