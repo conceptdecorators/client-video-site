@@ -1035,6 +1035,9 @@ video {
   .video-meta__title {
     margin-right: 47px;
   }
+  .show-like {
+    font-size: 35px;
+  }
 }
 
 .w-layout-grid {
