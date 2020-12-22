@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="css\slick.css" />
     <link rel="stylesheet" href="css\typography.css" />
     <link href="assets\fonts\Theater-Bold.woff2" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+    />
     <!-- boxicon -->
     <link
       href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
@@ -46,7 +50,7 @@
           <ul class="nav-menu">
             <li><a href="index.html" class="nav-links">Home</a></li>
             <li><a href="our-story.html" class="nav-links">Our Story</a></li>
-            <li><a href="#" class="nav-links">Shows</a></li>
+            <li><a href="shows.html" class="nav-links">Shows</a></li>
             <li><a href="#" class="nav-links">Contact</a></li>
           </ul>
         </div>
@@ -81,7 +85,7 @@
       <div class="section hero about">
         <div class="mycontain center-text herocontain">
           <h1 class="white-heading" style="text-align: center" ;>
-            The Mecca of <span class="yellowtext"> Urban</span> Arts
+            Endulge <span class="yellowtext"> into</span> Content
           </h1>
           <p class="p-hero">
             Direct trade poke distillery tofu disrupt. Art party heirloom
@@ -92,6 +96,114 @@
         </div>
       </div>
     </div>
+    <section style="background-color: #0f0f0f">
+      <div class="filters filter-button-group">
+        <ul class="portfolio-list">
+          <h4>
+            <li class="active" data-filter="*">All</li>
+            <li data-filter=".televison">Televison</li>
+            <li data-filter=".movies">Movies</li>
+            <li data-filter=".documentary">Documentary</li>
+          </h4>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="container grid-shows">
+          <div class="content televison item">
+            <a
+              href="assets/images/Urbanology-TV-Graphic.jpg"
+              data-lightbox="televison"
+              data-title="Televison"
+            >
+              <img src="assets/images/Urbanology-TV-Graphic.jpg" />
+              <h5 class="show-item-title">Urbanology TV</h5>
+            </a>
+          </div>
+          <div class="content movies item">
+            <a
+              href="assets/images/The-Legend-Of-Kung-Funk-TV-Graphic.jpg"
+              data-lightbox="movies"
+              data-title="Movies"
+            >
+              <img src="assets/images/The-Legend-Of-Kung-Funk-TV-Graphic.jpg" />
+              <h5 class="show-item-title">The Legend Of Kung Funk</h5>
+            </a>
+          </div>
+          <div class="content televison item">
+            <a
+              href="assets/images/Access-Welth-Nation-Ad-(Harlem).jpg"
+              data-lightbox="televison"
+              data-title="Televison"
+            >
+              <img src="assets/images/Access-Welth-Nation-Ad-(Harlem).jpg" />
+              <h5 class="show-item-title">Access Wealth Nation</h5>
+            </a>
+          </div>
+          <div class="content televison item">
+            <a
+              href="assets/images/The-Seaerch-For-Green-Gold-TV-Graphic.jpg"
+              data-lightbox="televison"
+              data-title="Televison"
+            >
+              <img
+                src="assets/images/The-Seaerch-For-Green-Gold-TV-Graphic.jpg"
+              />
+              <h5 class="show-item-title">The Legend Of Kung Funk</h5>
+            </a>
+          </div>
+          <div class="content televison item">
+            <a
+              href="assets/images/Pathways-TV-Graphic.jpg"
+              data-lightbox="televison"
+              data-title="Televison"
+            >
+              <img src="assets/images/Pathways-TV-Graphic.jpg" />
+              <h5 class="show-item-title">Pathways</h5>
+            </a>
+          </div>
+          <div class="content movies item">
+            <a
+              href="assets/images/Inside-The-Dojo-TV-Graphic.jpg"
+              data-lightbox="movies"
+              data-title="Movies"
+            >
+              <img src="assets/images/Inside-The-Dojo-TV-Graphic.jpg" />
+              <h5 class="show-item-title">Inside The Dojo</h5>
+            </a>
+          </div>
+          <div class="content movies item">
+            <a
+              href="assets/images/Make-Love-Not-War-TV-Graphic.jpg"
+              data-lightbox="movies"
+              data-title="Movies"
+            >
+              <img src="assets/images/Make-Love-Not-War-TV-Graphic.jpg" />
+              <h5 class="show-item-title">Make Love Not War</h5>
+            </a>
+          </div>
+          <div class="content movies item">
+            <a
+              href="assets/images/The-Green-Show-TV-Graphic.jpg"
+              data-lightbox="movies"
+              data-title="Movies"
+            >
+              <img src="assets/images/The-Green-Show-TV-Graphic.jpg" />
+              <h5 class="show-item-title">The Green Show</h5>
+            </a>
+          </div>
+          <div class="content documentary item">
+            <a
+              href="assets/images/Make-Love-Not-War-TV-Graphic.jpg"
+              data-lightbox="documentary"
+              data-title="Documentary"
+            >
+              <img src="assets/images/Make-Love-Not-War-TV-Graphic.jpg" />
+              <h5 class="show-item-title">Make Love Not War</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- footer -->
     <footer class="footer" role="contentinfo">
       <div class="footer--wrapper">
@@ -105,10 +217,9 @@
                   rel="noopener noreferrer"
                   class="has-icon-left"
                 >
-                  <i
-                    class="bx bxl-instagram"
-                    style="color: var(--iq-primary)"
-                  ></i>
+                  <i class="bx bxl-instagram" style="color: var(--iq-primary)"
+                    ><span>Instagram</span>
+                  </i>
                 </a>
               </p>
               <p>
@@ -118,15 +229,14 @@
                   rel="noopener noreferrer"
                   class="has-icon-left"
                 >
-                  <i
-                    class="bx bxl-twitter"
-                    style="color: var(--iq-primary)"
-                  ></i>
+                  <i class="bx bxl-twitter" style="color: var(--iq-primary)"
+                    ><span>Twitter</span></i
+                  >
                 </a>
               </p>
               <p>
                 <a
-                  href="https://twitter.com/soulcitynetwork"
+                  href="https://www.facebook.com/SoulCityTV/?ref=py_c"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="has-icon-left"
@@ -134,20 +244,20 @@
                   <i
                     class="bx bxl-facebook-square"
                     style="color: var(--iq-primary)"
-                  ></i>
+                    ><span>Facebook</span></i
+                  >
                 </a>
               </p>
               <p>
                 <a
-                  href="https://www.youtube.com/user/SoulcityVideos/videos"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="has-icon-left"
                 >
-                  <i
-                    class="bx bxl-youtube"
-                    style="color: var(--iq-primary)"
-                  ></i>
+                  <i class="bx bxl-youtube" style="color: var(--iq-primary)"
+                    ><span>Youtube</span></i
+                  >
                 </a>
               </p>
             </div>
@@ -220,5 +330,9 @@
         });
       });
     </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
   </body>
 </html>
